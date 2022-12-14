@@ -8,40 +8,70 @@
   height: 20%;
   padding: 5px;
   border: 1px solid black;
- margin: 1rem;
+  margin: 1rem;
   background-color: grey;
   display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 .nav_teams nav ul li {
-  width: 205px;
-  height: 75px;
-  border: 1px solid black;
-  border-radius: 1rem;
+  width: 18%;
+  height: 100%;
   margin: 0.5rem;
   padding: 1px;
+  padding-left: 5%;
   flex-wrap: wrap;
   list-style-type: none;
   display: inline-block;
+  
 }
 .hero{
   background-color: gray;
   display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 1rem;
   padding: 1rem;
   width: 100%;
-  height: 50%;
+  height: 30%;
+}
+.hero span{
+  justify-content: flex-start;
+  padding: 0.5rem;
+ width: 50%;
 }
 .hero span h1{
  background-color: red;
  justify-content: flex-start;
  padding: 0.5rem;
- width: 45%;
+ width: 100%;
+ margin-bottom: 1rem;
   
 }
 .hero span p{
   background-color: blueviolet;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  width: 100%;
+}
+.hero span img{
+  justify-content: flex-end;
+  width:100%;
+  height: 100%;
+}
+.footer footer{
+  width: 100%;
+  height: 20%;
+  background-color: blue;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+}
+.footer span p{
+  background-color: blueviolet;
+  width: 60%;
+  height:100%;
+
+}
+.footer span img{
+  justify-content: flex-end;
+  width: 40%;
+  height:100%;
 }
