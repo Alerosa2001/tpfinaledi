@@ -10,7 +10,7 @@ body {
 .mheader {
   background-color: grey;
   width: 100%;
-  height: 20%;
+  height: 10%;
   display: inline-flex;
   flex-wrap: wrap;
   border-radius: 1rem;
@@ -53,14 +53,29 @@ body {
   height: 30%;
   margin-top: 1rem;
   border-radius: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
   display: flex;
+  justify-content: space-evenly;
 }
 .tdetails ul {
   background-color: red;
   list-style: none;
-  padding: 0.5rem;
+  padding: 1rem;
+  margin: 0.5rem;
   width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.tcar{
+  width: 35%;
+  height: 100%;
+  justify-content: flex-end;
+  margin: 0.5rem;
+}
+.tcar img{
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
 }
 .merpilots {
   background-color: blue;
@@ -80,6 +95,7 @@ body {
 .hamilton img {
   height: 100%;
   width: 100%;
+  border-radius: 1rem;
 }
 .russel {
   height: 100%;
@@ -88,4 +104,36 @@ body {
 .russel img {
   height: 100%;
   width: 100%;
+  border-radius: 1rem;
+}
+.russelinfo {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.5rem;
+  padding: 0.5rem;  
+}
+.russelinfo img{
+  height: 10%;
+  width: 10%; 
+}
+.hamiltoninfo {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.5rem;
+  padding: 0.5rem;  
+}
+.hamiltoninfo img{
+  height: 10%;
+  width: 10%; 
+}
+.footer{
+  height: 10%;
+  width: 100%;
+  background-color: blueviolet;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.footer ul{
+  list-style: none;
 }
