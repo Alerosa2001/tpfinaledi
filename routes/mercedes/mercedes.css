@@ -1,0 +1,91 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.mheader {
+  background-color: grey;
+  width: 100%;
+  height: 20%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+}
+.mheader h1 {
+  width: 60%;
+  height: 100%;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.mheader img {
+  width: 30%;
+  height: 100%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+.team {
+  background-color: grey;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+.team h2 {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+.team p {
+  padding: 0.5rem;
+}
+.teaminfo {
+  background-color: grey;
+  width: 100%;
+  height: 30%;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  display: flex;
+}
+.tdetails ul {
+  background-color: red;
+  list-style: none;
+  padding: 0.5rem;
+  width: 100%;
+}
+.merpilots {
+  background-color: blue;
+  margin: 0%;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.hamilton {
+  height: 100%;
+  width: 30%;
+}
+.hamilton img {
+  height: 100%;
+  width: 100%;
+}
+.russel {
+  height: 100%;
+  width: 30%;
+}
+.russel img {
+  height: 100%;
+  width: 100%;
+}
