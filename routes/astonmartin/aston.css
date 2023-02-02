@@ -6,11 +6,10 @@
   body {
     margin: 1rem;
     padding: 0.5rem;
-    background: #1e1c1c;
-    color: white;
+    background-color: #00594f;
   }
   .mheader {
-    background-color: #EF1A2D;
+    background-color: #C8CCCE;
     width: 100%;
     height: 10%;
     display: inline-flex;
@@ -31,7 +30,7 @@
     border-radius: 1rem;
   }
   .team {
-    background-color: #EF1A2D;
+    background-color:  #C8CCCE;
     width: 100%;
     height: 30%;
     display: flex;
@@ -50,7 +49,7 @@
     padding: 0.5rem;
   }
   .teaminfo {
-    background-color:  #EF1A2D;
+    background-color:  #C8CCCE;
     width: 100%;
     height: 30%;
     margin-top: 1rem;
@@ -79,7 +78,7 @@
     height: 100%;
     border-radius: 1rem;
   }
-  .pilots {
+  .ampilots {
   
     margin: 0%;
     margin-top: 1rem;
@@ -90,54 +89,54 @@
     display: flex;
     justify-content: space-evenly;
   }
-  .pilot1 {
+  .alonso {
     padding: 0.5rem;
-    background-color:  #EF1A2D;
+    background-color:  #C8CCCE;
     border-radius: 1rem;
     height: 100%;
     width: 30%;
   }
-  .pilot1 img {
+  .alonso img {
     height: 100%;
     width: 100%;
     border-radius: 1rem;
   }
-  .pilot2 {
+  .stroll {
     padding: 0.5rem;
-    background-color:  #EF1A2D;
+    background-color:  #C8CCCE;
     border-radius: 1rem;
     height: 100%;
     width: 30%;
   }
-  .pilot2 img {
+  .stroll img {
     height: 100%;
     width: 100%;
     border-radius: 1rem;
   }
-  .pilot2info {
+  .strollinfo {
     display: flex;
     justify-content: space-evenly;
     margin: 0.5rem;
     padding: 0.5rem;  
   }
-  .pilot2info img{
+  .strollinfo img{
     height: 10%;
     width: 10%; 
   }
-  .pilot1info {
+  .alonsoinfo {
     display: flex;
     justify-content: space-evenly;
     margin: 0.5rem;
     padding: 0.5rem;  
   }
-  .pilot1info img{
+  .alonsoinfo img{
     height: 10%;
     width: 10%; 
   }
   .footer{
     height: 10%;
     width: 100%;
-    background-color: #EF1A2D;
+    background-color: #C8CCCE;
     margin-top: 1rem;
     padding: 1rem;
     border-radius: 1rem;
